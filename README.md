@@ -46,6 +46,38 @@ Le ResNet, connu pour sa capacité à bien capter les caractéristiques à parti
 
 Cette combinaison a permis une meilleure distinction et localisation des bâtiments dans les images satellites.
 
+#### Mon modèle utilisé
+
+##### Convolution Initiale :
+- `conv1` : Convolution avec un filtre de taille 3x3, suivie d'une activation ReLU.
+
+##### Encodeur (ResNet Layers) :
+- `conv2` : Première couche ResNet.
+- `conv3` : Deuxième couche ResNet.
+- `conv4` : Troisième couche ResNet.
+- `conv5` : Quatrième couche ResNet.
+
+##### Centre :
+- `center` : Bloc décodeur central, effectuant l'upscaling des caractéristiques.
+
+##### Blocs de Décodage :
+- `dec5` : Premier bloc décodeur.
+- `dec4` : Deuxième bloc décodeur.
+- `dec3` : Troisième bloc décodeur.
+- `dec2` : Quatrième bloc décodeur.
+- `dec1` : Cinquième bloc décodeur.
+
+##### Dernières Couches :
+- `dec0` : Convolution et activation ReLU.
+- `final` : Couche de convolution finale pour la classification des classes.
+
+#### Expérimentations
+J'ai ensuite expérimenté en faisant variés certains élements:
+- Fonction de loss
+- Taille du dataset d’entrainement
+- Temps d’apprentissage (Nbr. d’époques)
+- (...)
+
 ![Test](https://github.com/MathieuRodri/Polygonisation-de-b-timents-partir-d-images-a-riennes/blob/main/Images/3.png)
 ![Test](https://github.com/MathieuRodri/Polygonisation-de-b-timents-partir-d-images-a-riennes/blob/main/Images/4.png)
 
