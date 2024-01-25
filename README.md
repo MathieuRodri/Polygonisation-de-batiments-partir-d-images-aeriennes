@@ -1,5 +1,23 @@
 # 🌐 Projet de Modélisation en Vision
 
+<br><br><br>
+
+* [📌 Introduction](#---introduction)
+  
+* [🗂 Dataset et Contexte](#---dataset-et-contexte)
+  
+* [🛠 Méthodologie](#---m-thodologie)
+  
+  + [🔍 Segmentation Sémantique](#---segmentation-s-mantique)
+    
+  + [📐 Polygonisation](#---polygonisation)
+    
+* [📊 Observations et Évaluations](#---observations-et--valuations)
+  
+* [🔚 Conclusion](#---conclusion)
+
+<br><br><br>
+  
 ## 📌 Introduction
 
 Dans le cadre de mon Master en Informatique avec une spécialisation en Vision à l'Université Paris Cité, j'ai travaillé sur un projet fascinant de modélisation en vision. Ce projet, réalisé en collaboration avec Hajar Goddi et supervisé par Sylvain Lobry, a porté sur la polygonisation des bâtiments à partir d'images aériennes.
